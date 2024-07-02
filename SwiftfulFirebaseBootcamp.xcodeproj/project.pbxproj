@@ -18,6 +18,8 @@
 		AD120BEB2C347A7200875015 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD120BEA2C347A7200875015 /* AuthenticationView.swift */; };
 		AD120BED2C347E0A00875015 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD120BEC2C347E0A00875015 /* SignInEmailView.swift */; };
 		AD120BEF2C34814F00875015 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD120BEE2C34814F00875015 /* AuthenticationManager.swift */; };
+		AD120BF12C348D6A00875015 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD120BF02C348D6A00875015 /* RootView.swift */; };
+		AD120BF32C34909500875015 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD120BF22C34909500875015 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		AD120BEA2C347A7200875015 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		AD120BEC2C347E0A00875015 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		AD120BEE2C34814F00875015 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		AD120BF02C348D6A00875015 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AD120BF22C34909500875015 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		AD120BE92C347A3100875015 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				AD120BF02C348D6A00875015 /* RootView.swift */,
 				AD120BEA2C347A7200875015 /* AuthenticationView.swift */,
 				AD120BEC2C347E0A00875015 /* SignInEmailView.swift */,
+				AD120BF22C34909500875015 /* SettingsView.swift */,
 				AD120BEE2C34814F00875015 /* AuthenticationManager.swift */,
 			);
 			path = Authentication;
@@ -180,8 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD120BF32C34909500875015 /* SettingsView.swift in Sources */,
 				AD120BD42C345DF900875015 /* ContentView.swift in Sources */,
 				AD120BD22C345DF900875015 /* SwiftfulFirebaseBootcampApp.swift in Sources */,
+				AD120BF12C348D6A00875015 /* RootView.swift in Sources */,
 				AD120BEB2C347A7200875015 /* AuthenticationView.swift in Sources */,
 				AD120BEF2C34814F00875015 /* AuthenticationManager.swift in Sources */,
 				AD120BED2C347E0A00875015 /* SignInEmailView.swift in Sources */,

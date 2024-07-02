@@ -41,6 +41,7 @@ struct SignInEmailView: View {
                 .padding()
                 .background(Color.gray.opacity(0.4))
                 .cornerRadius(10)
+                .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
             
             SecureField("Password...", text: $viewModel.password)
                 .padding()
